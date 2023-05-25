@@ -1,0 +1,139 @@
+/* 
+미디어쿼리 css 
+*/
+
+@media screen and (max-width: 1500px){
+    .util{
+        display: none;
+    }
+}
+
+/* 
+header 
+*/
+/* 넓이가 1024 보다 작을때 */
+ @media screen and (max-width:1024px) {
+    .headerTop .GNB_top{
+        width: 90%;
+    }
+    .headerBottom{
+        transform: translateX(-40%);
+    }
+    .GNB_right{
+        display: none;
+    }
+    
+}
+/* 790 */
+@media screen and (max-width: 790px) {
+    .headerTop h3{
+        display: none;
+    }
+    .headerTop .GNB_top span{
+        display: none;
+    }
+    .headerBottom{
+        height: 0;
+    }
+    .headerBottom .ico_line3_box{
+        top: -40px;
+        left: 120px;
+    }
+    .headerBottom h1,
+    .headerBottom > div{
+        display: none;
+    }
+}
+/* 
+main1
+*/
+/* 넓이가 1024 보다 작을때 */
+@media screen and (max-width:1024px) {
+    .main1{
+        background-size: 100% 70%;
+        padding-bottom: 0;
+    }
+    .main1 h2{
+        width: 60%;
+        padding-top: 20px;
+    }
+    .main1 dl{
+        width: 200px;
+    }
+}
+/* 790 */
+@media screen and (max-width: 790px) {
+    .main1 .qust dl{
+        float: left;
+        margin-left: 10px;
+    }
+    .main1 .sample ul:nth-of-type(1) li:nth-of-type(2){
+        width: 240px;
+    }
+    .main1 .sample .money{
+        right: 400px;
+    }
+    .main1 .sample ul:nth-of-type(2){
+        left: 150px;
+    }   
+}
+/* 
+main2
+*/
+/* 넓이가 1024 보다 작을때 */
+@media screen and (max-width:1024px) {
+    .main2{
+        display: none;
+    }
+}
+
+/* 
+main3
+*/
+/* 넓이가 1024 보다 작을때 */
+@media screen and (max-width:1024px) {
+    .main3 .line{
+        display: none;
+    }
+
+    .main3 .list{
+        display: none;
+    }
+    .main3 .goods{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+/* 
+main4
+*/
+/* 넓이가 1024 보다 작을때 */
+@media screen and (max-width:1024px) {
+    .main4{
+        
+        margin: 0 auto;
+    }
+}
+/* 
+main5
+*/
+@media screen and (max-width:1024px) {
+    .main5{
+        height: 1000px;
+    }
+    .main5 .recomend_list{
+        display: none;
+    }
+    .main5 .recomend_main{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+/* 
+main6, footer
+*/
+@media screen and (max-width:1024px) {
+    .main6{
+        display: none;
+    }
+}

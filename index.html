@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기프티쇼 비즈 클론코딩</title>
+    <link rel="shortcut icon" href="./images/biz_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style1.css">
+
+    <script src="./js/jquery-3.6.3.js"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style2.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- header top -->
+        <div class="headerTop">
+            <div class="GNB_top clearfix">
+                <span><a href="#">즐겨찾기</a></span>
+                <div class="login">
+                    <h3><a href="#">서비스 가이드</a></h3>
+                    <nav>
+                        <ul class="clearfix">
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- header bottom -->
+        <div class="headerBottom clearfix">
+            <a class="ico_line3_box" href="#">
+                <div class="ico_line3"></div>
+            </a>
+            <h1><a href="#"><img src="./images/GNB_logo.gif" alt="기프티쇼 비즈 로고"></a></h1>
+            <div class="GNB_middle clearfix">
+                <nav>
+                    <ul class="clearfix">
+                        <li><a href="#">모바일쿠폰</a></li>
+                        <li><a href="#">설문조사</a></li>
+                        <li><a href="#">문자메세지</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="clearfix">
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">제휴혜택존</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="GNB_right">
+                <nav>
+                    <ul class="clearfix">
+                        <li><a href="#">온라인견적</a></li>
+                        <li><a href="#">장바구니</a></li>
+                        <li><a href="#">임시저장</a></li>
+                        <li><a href="#">검색</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- main 1 -->
+        <div class="main1 clearifx">
+            <div>
+                <h2><strong>종합 마케팅 플랫폼</strong> 기프티쇼 비즈, 이렇게 활용해보세요</h2>
+                <div class="qust">
+                    <dl class="clearfix ho">
+                        <dt>모바일 쿠폰부터 배송상품까지</dt>
+                        <dd>경품을 구매하시나요?</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>고객 만족도 조사를 위한</dt>
+                        <dd>설문을 진행하시나요?</dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt>이벤트 홍보를 위한</dt>
+                        <dd>문자를 발송하시나요?</dd>
+                    </dl>
+                </div>
+                <div class="sample clearfix">
+                    <ul>
+                        <li><a href="#">브랜드 선택</a></li>
+                        <li><a href="#">상품선택</a></li>
+                        <li><a href="#">수량입력</a></li>
+                    </ul>
+                    <div class="money clearfix">
+                        <p>GOLD 등급</p>
+                        <p>총 견적 금액</p>
+                        <p>0원</p>
+                    </div>
+                    <ul class="clearfix">
+                        <li><a class="ho" href="#">견적서 작성</a></li>
+                        <li><a href="#">장바구니 담기</a></li>
+                        <li><a href="#">바로구매</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- main 2 -->
+        <div class="main2">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/bannerSlide1.jpg" alt="배너이미지1"></div>
+                    <div class="swiper-slide"><img src="./images/bannerSlide2.jpg" alt="배너이미지2"></div>
+                    <div class="swiper-slide"><img src="./images/bannerSlide3.jpg" alt="배너이미지3"></div>
+                    <div class="swiper-slide"><img src="./images/bannerSlide4.jpg" alt="배너이미지4"></div>
+                    <div class="swiper-slide"><img src="./images/bannerSlide5.jpg" alt="배너이미지5"></div>
+                    <div class="swiper-slide"><img src="./images/bannerSlide6.jpg" alt="배너이미지6"></div>
+                    <div class="swiper-slide"><img src="./images/bannerSlide7.jpg" alt="배너이미지7"></div>
+                    <div class="swiper-slide"><img src="./images/bannerSlide8.jpg" alt="배너이미지8"></div>
+                    <div class="swiper-slide"><img src="./images/bannerSlide9.jpg" alt="배너이미지9"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <!-- 버튼 추가 -->
+                <div class="btns">
+                    <button class="start">시작</button>
+                    <button class="stop">정지</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Swiper JS -->
+        <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+
+            window.onload = function(){
+                var swiper1 = new Swiper(".main2 .mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                direction: "vertical",
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                    pauseOnMouseEnter: true
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "fraction",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+
+
+
+            //시작버튼과 정지버튼 클릭 시 시작과 정지 시키고 싶은데 작동 안됨 하아..... 찾았다.......
+            $('.btns .start').on('click', function () {
+                console.log('start autoplay');
+                swiper1.autoplay.start();
+            });
+            $('.btns .stop').on('click', function () {
+                console.log('stop autoplay');
+                swiper1.autoplay.stop();
+            });
+
+            };
+
+
+
+
+                
+        </script>
+
+        <!-- main 3 -->
+        <div class="main3">
+            <h2>지금, 가장 많이 구매하고 있어요</h2>
+            <div class="line"></div>
+            <ul class="list clearfix">
+                <li><a class="ho" href="#">전체</a></li>
+                <li><a href="#">신규고객 전용!</a></li>
+                <li><a href="#">60일 상품</a></li>
+                <li><a href="#">90일 상품</a></li>
+                <li><a href="#">설날 복지 추천</a></li>
+                <li><a href="#">신규브랜드</a></li>
+                <li><a href="#">커피/음료</a></li>
+                <li><a href="#">베이커리/도넛</a></li>
+                <li><a href="#">아이스크림</a></li>
+                <li><a href="#">편의점</a></li>
+                <li><a href="#">피자/버거/치킨</a></li>
+                <li><a href="#">상품권/마트/페이</a></li>
+                <li><a href="#">주유권</a></li>
+            </ul>
+            <ul class="goods clearfix">
+                <li>
+                    <a href="#">
+                        <img src="./images/chupachups-removebg-preview.png" alt="츄파츕스">
+                        <div>1<div>BEST</div>
+                        </div>
+                    </a>
+                    <div>
+                        <h3>GS25</h3>
+                        <h4>퍼페티)츄파춥스250</h4>
+                        <p>
+                            <span>~12%</span>
+                            <span>220원</span>
+                            <span>250원</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/naverpay_1000-removebg-preview.png" alt="네이버페이">
+                        <div>2</div>
+                    </a>
+                    <div>
+                        <h3>네이버페이 포인트쿠폰</h3>
+                        <h4>네이버페이 포인트 1,000원</h4>
+                        <p>
+                            <span>~2%</span>
+                            <span>980원</span>
+                            <span>1,000원</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/naverpay_5000-removebg-preview.png" alt="네이버페이">
+                        <div>3</div>
+                    </a>
+                    <div>
+                        <h3>네이버페이 포인트쿠폰</h3>
+                        <h4>네이버페이 포인트 5,000원</h4>
+                        <p>
+                            <span>~2%</span>
+                            <span>4,900원</span>
+                            <span>5,000원</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/sinsaegye_100000-removebg-preview.png" alt="신세계">
+                        <div>4</div>
+                    </a>
+                    <div>
+                        <h3>신세계</h3>
+                        <h4>신세계 상품권(100,000원)</h4>
+                        <p>
+                            <span>7%</span>
+                            <span>93,000원</span>
+                            <span>100,000원</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <div class="more">
+                <a href="#">더보기</a>
+            </div>
+        </div>
+        <!-- main 4 -->
+        <div class="main4">
+            <h2>다른 기업들은 이렇게 쓰고 있습니다</h2>
+            <article class="clearfix">
+                <ul class="list">
+                    <li><a href="#">만족도 설문을 더 쉽게!</a></li>
+                    <li><a href="#">고객이 선호하는 경품</a></li>
+                    <li><a href="#">추천부터 증빙까지 원스톱</a></li>
+                    <li><a href="#">실물 케이크 선물은 NO!</a></li>
+                    <li><a href="#">직원 복지도 한번에</a></li>
+                </ul>
+                <div class="list_main">
+                    <h3>"설문조사 기능으로 광고주 만족도 조사 진행하고 선물까지 한번에!"</h3>
+                    <span>플레이디</span>
+                    <p>광고주와의 커뮤니케이션과 만족도를 주기적으로 체크하는 것이 매우 중요한데, 비즈 설문조사 서비스는 다양한 설문조사 템플릿을 제공해줘서 편리하게 설문조사를 생성할 수 있고,
+                        모바일 쿠폰을 함께 발송할 수 있어 참여율을 높이는 것은 물론, 업무 시간도 절약할 수 있어 자주 이용하고 있습니다.</p>
+                    <div>이런 서비스를 이용했어요!</div>
+                    <div class="clearfix">
+                        <div>설문관리</div>
+                        <div>추첨형 발송</div>
+                        <div>구매내역/통계</div>
+                    </div>
+                    <img src="./images/img_main_case_01.png" alt="">
+                </div>
+            </article>
+
+
+
+            <div class="banner">
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/slide2_1.jpg" alt="배너2_1"></div>
+                        <div class="swiper-slide"><img src="./images/slide2_2.jpg" alt="배너2_2"></div>
+                        <div class="swiper-slide"><img src="./images/slide2_1.jpg" alt="배너2_3"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+        </div>
+        Swiper JS
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".banner .mySwiper", {
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "fraction",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+
+        <!-- main 5 -->
+        <div class="main5">
+            <div class="center clearfix">
+                <h2>어떤 경품을 찾으시나요?</h2>
+                <h3>고객 만족도를 향상시키는 최고의 마케팅 상품!</h3>
+                <ul class="recomend_list clearfix">
+                    <li><a class="ho" href="#">설선물 추천</a></li>
+                    <li><a href="#">인기 90일 상품</a></li>
+                    <li><a href="#">신규 브랜드</a></li>
+                    <li><a href="#">직원 복지 선물</a></li>
+                    <li><a href="#">이벤트 경품 추천</a></li>
+                </ul>
+                <ul class="recomend_main clearfix">
+                    <li>
+                        <a href="#"><img src="./images/gift2.jpg" alt="정관장"></a>
+                        <div>
+                            <h3>정관장</h3>
+                            <h4>[기프티쇼]정관장 홍삼정 에브리타임10ml*30포</h4>
+                            <p>
+                                <span>2%</span>
+                                <span>99,960원</span>
+                                <span>102,000원</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/gift2.jpg" alt="정관장"></a>
+                        <div>
+                            <h3>정관장</h3>
+                            <h4>[기프티쇼]정관장 홍삼정 에브리타임10ml*30포</h4>
+                            <p>
+                                <span>2%</span>
+                                <span>99,960원</span>
+                                <span>102,000원</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/gift2.jpg" alt="정관장"></a>
+                        <div>
+                            <h3>정관장</h3>
+                            <h4>[기프티쇼]정관장 홍삼정 에브리타임10ml*30포</h4>
+                            <p>
+                                <span>2%</span>
+                                <span>99,960원</span>
+                                <span>102,000원</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/gift2.jpg" alt="정관장"></a>
+                        <div>
+                            <h3>정관장</h3>
+                            <h4>[기프티쇼]정관장 홍삼정 에브리타임10ml*30포</h4>
+                            <p>
+                                <span>2%</span>
+                                <span>99,960원</span>
+                                <span>102,000원</span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- main 6 -->
+        <div class="main6">
+            <h2>고객센터</h2>
+            <p>기업 고객용 모바일 쿠폰 서비스에 대한 모든 질문은 바로 여기서 해결하세요!</p>
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <div>
+                            <p>1:1문의</p>
+                            <p>모바일 쿠폰 관련된 질문은 <br> 모두 여기서!</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <p>발송대행문의</p>
+                            <p>직접 발송하기 어려우신 경우 <br> 문의 주세요</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <p>연동문의</p>
+                            <p>시스템 연동을 통한 <br> 실시간 발송문의는 여기서!</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <p>제휴문의</p>
+                            <p>기프티쇼 비즈와 함께 <br> 시너지를 극대화하고 싶으신가요?</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <p>입점문의</p>
+                            <p>기프티쇼 비즈에 <br> 상품 입점을 원하신다면!</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="notice">
+                <h4> <img src="./images/notice.png" alt="공지사항"></h4>
+                <span>[상품중단] 할리스, 아티제, 디즈니, 일부 상품 판매 중단 안내 (01/19~ 01/20~)</span>
+                <span>2023년 01월 19일</span>
+            </div>
+        </div>
+    </main>
+    <!-- util -->
+    <div class="util">
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"><span>비즈머니</span></a></li>
+            <li><a href="#"><span>상품정보</span></a></li>
+            <li><a href="#"><span>1:1 문의</span></a></li>
+            <li><a href="#"><span>장바구니</span></a></li>
+            <li><a href="#"><span>TOP</span></a></li>
+        </ul>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="clearfix">
+            <ul class="clearfix">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">기업고객센터</a></li>
+                <li><a href="#"> <img src="./images/ismsp_logo.png" alt="ismp로고"> 인증범위 및 유효기간 보기</a></li>
+                <li><a href="#"> <img src="./images/customservey.png" alt="소비자만족도"> 소비자만족 브랜드 대상 1위</a></li>
+            </ul>
+            <h2><img src="./images/footer_logo.png" alt="기프티쇼 비즈"></h2>
+            <div class="info">
+                <div>
+                    <span>(주)케이티알파</span>
+                    <span>대표이사 : 정기호</span>
+                    <span><a href="#">사업자등록번호 : 211-81-79649</a></span>
+                    <span>고객센터 : 1588-0108</span>
+                </div>
+                <div>
+                    <span>통신판매업신고 : 2019-서울동작-0381</span>
+                    <span>개인정보보호책임자 : 조성수</span>
+                </div>
+                <div>
+                    <address>서울시 동작구 보라매로5길 23 삼성보라매 옴니타워 (07071)</address>
+                </div>
+                <p>
+                    <span>Copyright &copy;</span>
+                    <img src="./images/kt_alpha.png" alt="Kt alpha logo co.">
+                    <span>Co., Ltd. All rights reserved.</span>
+                </p>
+            </div>
+            <a class="icoblog" href="#"></a>
+            <div class="service">
+                <a href="#">
+                    <h3>고객센터 1588-0108</h3>
+                    <h4>서비스 이용안내/제휴/기타 문의</h4>
+                    <p>(평일) 9:00 ~ 18:00</p>
+                    <p>(점심시간 12:00 ~ 13:00)</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
